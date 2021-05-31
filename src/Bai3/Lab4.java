@@ -8,7 +8,6 @@ public class Lab4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập n : ");
         int n = sc.nextInt();
-        //String c=sc.nextLine();//để bắt kí tự enter bị thừa
         sc.nextLine();//để bắt kí tự enter bị thừa
         String ten[]= new String[n];
         float diem[] = new float[n];
