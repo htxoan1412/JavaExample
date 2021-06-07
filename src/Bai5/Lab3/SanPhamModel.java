@@ -2,7 +2,7 @@ package Bai5.Lab3;
 
 import java.lang.ref.PhantomReference;
 
-public class SanPhanModel {
+public class SanPhamModel {
     private String tenSp;
     private Double gia;
 
@@ -22,10 +22,10 @@ public class SanPhanModel {
         this.gia = gia;
     }
 
-    public SanPhanModel() {
+    public SanPhamModel() {
     }
 
-    public SanPhanModel(String tenSp, Double gia) {
+    public SanPhamModel(String tenSp, Double gia) {
         this.tenSp = tenSp;
         this.gia = gia;
     }

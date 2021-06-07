@@ -31,7 +31,6 @@ public class SinhVienController {
             }
         }
     }
-
     public void menu(){
         ArrayList<SinhVienModel> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
